@@ -88,7 +88,7 @@ export default function Home() {
 
     try {
       const result = await ai.models.generateContent({
-        model: 'gemini-3.1-pro-preview',
+        model: 'gemini-3-flash-preview',
         contents: `Client Requirement:\n${requirement}`,
         config: {
           systemInstruction: SYSTEM_PROMPT,
